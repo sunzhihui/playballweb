@@ -1,0 +1,244 @@
+.balance{
+	width: 100%;
+	height: 160upx;
+	background-color: #fff;
+}
+
+.balance_lf,.balance_rt{
+	float: left;
+	width: 50%;
+	height: 80upxpx;
+	box-sizing: border-box;
+	padding-top: 20upx;
+}
+
+.balance_lf{
+	text-align:left;
+	
+}
+
+.balance_rt{
+	text-align: right;
+	padding-right: 30upx;
+}
+
+.balance_title {
+	font-size: 28upx;
+	color: #333333;
+	font-weight: 600;
+	padding-left: 36upx;
+}
+
+.balance_num{
+	font-size: 64upx;
+	color: #FF5040;
+	line-height: 64upx;
+	margin-top: 20upx;
+	padding-left: 30upx;
+}
+
+.balance_look{
+	color: #666666;
+	font-size: 25upx;
+}
+
+.swiper image{
+	width: 100%;
+	height: 100%;
+}
+
+.balance_login{
+	width: 200upx;
+	height: 50upx;
+	line-height: 50upx;
+	border: 1px #FF6254 solid;
+	border-radius: 24upx;
+	font-size: 24upx;
+	text-align: center;
+	color: #FF6254;
+	float: right;
+	margin-top: 40upx;
+}
+
+.subfieled{
+	height: 310upx;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 20upx;
+}
+
+.subfield_plate{
+	float: left;
+	width: 25%;
+	text-align: center;
+	margin-top: 20upx;
+}
+
+.subfield_plate img{
+	width: 86upx;
+	height: 86upx;
+	
+}
+
+.subfield_plate text{
+	width: 100%;
+	font-size: 24upx;
+	display:block;
+	color: #333333;
+}
+
+/* recommend */
+
+.recommend{
+	width: 690rpx;
+	height: 580upx;
+	background-color: #fff;
+	margin-top: 20upx;
+	padding: 0 30upx;
+}
+
+	
+.recommend_title{
+	width: 100%;
+	height: 66upx;
+	padding-top: 30upx;
+}
+
+.line_red{
+	width: 8upx;
+	height: 28upx;
+	background-color: #FF0000;
+	border-radius: 4upx;
+	float: left;
+}
+
+.title_detail{
+	float: left;
+	font-size: 32upx;
+	height: 32upx;
+	line-height: 28upx;
+	margin-left: 8upx;
+	font-weight: 600;
+}
+
+.recommend_task{
+	float: left;
+	width: 330upx;
+	height: 36upx;
+	line-height: 36upx;
+	background-color: #F4F4F4;
+	border-radius: 18upx;
+	font-size: 20upx;
+	text-align: center;
+	color: #FF5040;
+	margin-left: 10upx;
+}
+
+.recommend_more{
+	float: right;
+	font-size: 24upx;
+	color: #666666;
+}
+
+.recommend_more image{
+	width: 12upx;
+	height: 20upx;
+}
+
+.recommed_detail{
+	width: 100%;
+	height: 180upx;
+	border-bottom: 1px solid #EBEBEB;
+	padding: 20upx 0;
+	display: flex;
+	
+}
+
+.recommend_img{
+	width: 196upx;
+	height: 137upx;
+	overflow: hidden;
+	border-radius: 10upx;
+}
+
+.recommend_img image{
+	width: 100%;
+	height: 100%;
+}
+
+.recommend_mes{
+	width: 494upx;
+	height: 137upx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.task_title{
+	width: 100%;
+	height: 45upx;
+	line-height: 45upx;
+	font-size: 25upx;
+	font-weight: 600;
+	padding-left: 20upx;
+}
+
+.task_detail{
+	width: 100%;
+	display: flex;
+}
+
+.task_goal{
+	width: 338upx;
+	height: 56upx;
+	line-height: 56upx;
+	font-size: 23upx;
+	color: #666666;
+	padding-left: 20upx;
+}
+
+.recommend_install{
+	width: 156upx;
+	height: 56upx;
+	line-height: 56upx;
+	border-radius: 28upx;
+	border: 2upx #FF5040 solid;
+	text-align: center;
+	font-size: 25upx;
+	color: #ff5040;
+	
+}
+
+.install_once{
+	height: 156upx;
+	width: 100%;
+	padding-top: 40upx;
+}
+
+.install_btn{
+	width: 390upx;
+	height: 80upx;
+	background-color: #FF503F;
+	color: #ffffff;
+	margin: 0 auto;
+	border-radius: 40upx;
+	text-align: center;
+	line-height: 80upx;
+	font-size: 28upx;
+}
+	
+.award_height{
+	height: 424upx;
+	margin-bottom: 100upx;
+}	
+	
+uni-view{
+	line-height: 1.5;
+}
+
+
+
+
+
+
+

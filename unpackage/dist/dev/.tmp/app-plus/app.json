@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/headLines/headLines",
+    "pages/cash/cash",
+    "pages/haveAfun/haveAfun",
+    "pages/my/my",
+    "pages/todaysMission/todaysMission",
+    "pages/tryHandSwimming/tryHandSwimming",
+    "pages/inviteGoodFriends/inviteGoodFriends",
+    "pages/presentation/presentation",
+    "pages/addAlipay/addAlipay",
+    "pages/applicationForPresentation/applicationForPresentation",
+    "pages/inputInvitationCode/inputInvitationCode",
+    "pages/questionnaireInvestigation/questionnaireInvestigation",
+    "pages/questionnaireInvestigationTwo/questionnaireInvestigationTwo",
+    "pages/downloadMakeMoney/downloadMakeMoney",
+    "pages/helpAndFeedback/helpAndFeedback",
+    "pages/helpAndFeedbackTwo/helpAndFeedbackTwo",
+    "pages/setUp/setUp",
+    "pages/accountAndSecurity/accountAndSecurity",
+    "pages/realNameAuthentication/realNameAuthentication",
+    "pages/realNameAuthenticationTwo/realNameAuthenticationTwo",
+    "pages/onlineSubmissionIdentityCardInformation/onlineSubmissionIdentityCardInformation",
+    "pages/starWelfareSociety/starWelfareSociety",
+    "pages/fastEarning/fastEarning",
+    "pages/missionDetails/missionDetails",
+    "pages/haveAfunTwo/haveAfunTwo",
+    "pages/logIn/logIn",
+    "pages/loginInTwo/loginInTwo",
+    "pages/news_read/news_read",
+    "pages/task_center/task_center",
+    "pages/my_wallet/my_wallet"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "优赚宝",
+    "navigationBarBackgroundColor": "#FF5040",
+    "backgroundColor": "#EFEFEF",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FF4C35",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home_01.png",
+        "selectedIconPath": "static/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/headLines/headLines",
+        "iconPath": "static/top_line.png",
+        "selectedIconPath": "static/top_line_sle.png",
+        "text": "头条"
+      },
+      {
+        "pagePath": "pages/cash/cash",
+        "iconPath": "static/money.png",
+        "selectedIconPath": "static/money_sle.png",
+        "text": "现金"
+      },
+      {
+        "pagePath": "pages/haveAfun/haveAfun",
+        "iconPath": "static/game.png",
+        "selectedIconPath": "static/game_sle.png",
+        "text": "玩一玩"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/mine.png",
+        "selectedIconPath": "static/mine_sle.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "lianXiUniapp",
+  "compilerVersion": "2.1.1",
+  "usingComponents": {
+    "collapse-tree-item": "/components/collapse-tree-item"
+  }
+}

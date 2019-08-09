@@ -1,0 +1,367 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "新球乐园",
+				"enablePullDownRefresh": true,
+			"app-plus": {
+                    // "pullToRefresh": {
+                    //     "support": true,
+                    //     "color": "#FFFFFF",
+                    //     "contentdown": {
+                    //         "caption": "下拉可刷新自定义文本"
+                    //     },
+                    //     "contentover": {
+                    //         "caption": "释放可刷新自定义文本"
+                    //     },
+                    //     "contentrefresh": {
+                    //         "caption": "正在刷新自定义文本"
+                    //     }
+                    // },
+						"titleNView":{
+						"titleText":"优赚宝",
+						"titleColor":"#FF5040",
+						"titleSize":"16px",
+						"backgroundColor":"#ffffff",
+						"buttons" : [{  
+						"text" : "领取",  
+						"fontSize" : "14"
+						}]  						
+					}
+                }
+			}
+		},	
+		{
+			"path": "pages/headLines/headLines",
+			"style": {
+				"navigationBarTitleText": "头条"
+			}
+		},
+		{
+			"path": "pages/cash/cash",
+			"style": {
+				"navigationBarTitleText": "现金"
+			}
+		},
+		{
+			"path": "pages/haveAfun/haveAfun",
+			"style": {
+				"navigationBarTitleText": "玩一玩"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+			
+	    ,{
+            "path" : "pages/todaysMission/todaysMission",
+            "style" : {
+				"navigationBarTitleText": "今日任务",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/tryHandSwimming/tryHandSwimming",
+            "style" : {
+				"navigationBarTitleText": "试玩手游",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/inviteGoodFriends/inviteGoodFriends",
+            "style" : {
+				"navigationBarTitleText": "邀请好友",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/presentation/presentation",
+            "style" : {
+				"navigationBarTitleText": "我要提现",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/addAlipay/addAlipay",
+            "style" : {
+				"navigationBarTitleText": "添加支付宝",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        },
+        {
+            "path" : "pages/applicationForPresentation/applicationForPresentation",
+            "style" : {
+				"navigationBarTitleText": "提现申请提交",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"app-plus": {
+				    "bounce": "none", //关闭窗口回弹效果	
+				    "titleNView": {
+				        "buttons": [ //原生标题栏按钮配置,
+				            {
+								"fontSize":"26rpx",
+								"colorPressed":"#333333",
+								"width":"120rpx",
+				                "text": "常见问题" //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听	
+				            }
+				        ]
+				    }
+				}
+			}
+        }
+        ,{
+            "path" : "pages/inputInvitationCode/inputInvitationCode",
+            "style" : {
+				"navigationBarTitleText": "输入邀请码",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/questionnaireInvestigation/questionnaireInvestigation",
+            "style" : {
+				"navigationBarTitleText": "问卷调查",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/questionnaireInvestigationTwo/questionnaireInvestigationTwo",
+            "style" : {
+				"navigationBarTitleText": "问卷调查",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/downloadMakeMoney/downloadMakeMoney",
+            "style" : {
+				"navigationBarTitleText": "下载赚钱",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/helpAndFeedback/helpAndFeedback",
+            "style" : {
+				"navigationBarTitleText": "帮助与反馈",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/helpAndFeedbackTwo/helpAndFeedbackTwo",
+            "style" : {
+				"navigationBarTitleText": "帮助与反馈",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/setUp/setUp",
+            "style" : {
+				"navigationBarTitleText": "设置",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/accountAndSecurity/accountAndSecurity",
+            "style" : {
+				"navigationBarTitleText": "账号与安全",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/realNameAuthentication/realNameAuthentication",
+            "style" : {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/realNameAuthenticationTwo/realNameAuthenticationTwo",
+            "style" : {
+				"navigationBarTitleText": "实名认证",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/onlineSubmissionIdentityCardInformation/onlineSubmissionIdentityCardInformation",
+            "style" : {
+				"navigationBarTitleText": "在线提交身份证信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/starWelfareSociety/starWelfareSociety",
+            "style" : {
+				"navigationBarTitleText": "星球福利社",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/fastEarning/fastEarning",
+            "style" : {
+				"navigationBarTitleText": "快速赚",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+        }
+        ,{
+            "path" : "pages/missionDetails/missionDetails",
+            "style" : {
+				//"navigationBarTitleText": "任务详情",
+				// "navigationBarBackgroundColor": "#FFFFFF",
+				// "navigationBarTextStyle": "black",
+				"app-plus":{
+					"titleNView":{
+						"titleText":"任务详情",
+						"titleColor":"black",
+						"titleSize":"16px",
+						"backgroundColor":"#FFFFFF",
+						"buttons":[{
+							"text":"刷新",
+							"color":"black",
+							"fontSize":"14px"
+						}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/haveAfunTwo/haveAfunTwo",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/logIn/logIn",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"收到的红包",
+						"titleColor":"black",
+						"titleSize":"16px",
+						"backgroundColor":"#FFFFFF"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/loginInTwo/loginInTwo",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"优赚宝"
+					}
+				}
+			}
+        },
+		{
+		    "path" : "pages/news_read/news_read",
+		    "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"优赚宝",
+						"titleSize":"16px"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/task_center/task_center",
+		    "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"任务中心",
+						"titleColor":"#333333",
+						"titleSize":"16px",
+						"backgroundColor":"#FFFFFF",
+						"buttons":[{
+							"text":"刷新",
+							"color":"#333333",
+							"fontSize":"14px"
+						}]
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/my_wallet/my_wallet",
+		    "style" : {
+				"app-plus":{
+					"titleNView":{
+						"titleText":"我的钱包",
+						"titleColor":"#ffffff",
+						"titleSize":"16px",
+						"backgroundColor":"#FF5040",
+						"buttons":[{
+							"text":"刷新",
+							"color":"#ffffff",
+							"fontSize":"14px"
+						}]
+					}
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "优赚宝",
+		"navigationBarBackgroundColor": "#FF5040",
+		"backgroundColor":"#EFEFEF",
+		"enablePullDownRefresh": true,
+		"usingComponents":{
+		    "collapse-tree-item":"/components/collapse-tree-item"
+		}
+	},
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FF4C35",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "static/home_01.png",
+        "selectedIconPath": "static/home.png",
+        "text": "首页"
+    }, {
+        "pagePath": "pages/headLines/headLines",
+        "iconPath": "static/top_line.png",
+        "selectedIconPath": "static/top_line_sle.png",
+        "text": "头条"	
+    },
+	{
+	    "pagePath": "pages/cash/cash",
+	    "iconPath": "static/money.png",
+	    "selectedIconPath": "static/money_sle.png",
+	    "text": "现金"	
+	},
+	{
+	    "pagePath": "pages/haveAfun/haveAfun",
+	    "iconPath": "static/game.png",
+	    "selectedIconPath": "static/game_sle.png",
+	    "text": "玩一玩"	
+	},
+	{
+	    "pagePath": "pages/my/my",
+	    "iconPath": "static/mine.png",
+	    "selectedIconPath": "static/mine_sle.png",
+	    "text": "我的"	
+	}]
+}
+	  
+}

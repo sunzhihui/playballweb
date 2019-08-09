@@ -1,0 +1,16 @@
+{
+  "titleNView": {
+    "titleText": "任务中心",
+    "titleColor": "#333333",
+    "titleSize": "16px",
+    "backgroundColor": "#FFFFFF",
+    "buttons": [
+      {
+        "text": "刷新",
+        "color": "#333333",
+        "fontSize": "14px"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

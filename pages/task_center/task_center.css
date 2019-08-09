@@ -1,0 +1,248 @@
+.banner{
+		width: 100%;
+		padding: 20upx 30upx 25upx 30upx;
+		display: flex;
+		background-color: #ffffff;
+		border-top:2upx #EBEBEB solid;
+	}
+	
+.banner_img{
+	width: 495upx;
+	height: 175upx;
+}
+	
+.banner_img image{
+	width: 100%;
+	height: 100%;
+}
+	
+.banner_btn{
+	width: 195upx;
+	text-align: center;
+	height: 66upx;
+	line-height: 66upx;
+	background-color: #FC695B;
+	border-radius: 33upx;
+	color: #E9E8E8;
+	margin-top: 80upx;
+	font-size: 36upx;
+}
+
+/* task_content */
+
+.task_content{
+	width: 100%;
+	padding: 0 30upx;
+	background-color: #ffffff;
+	margin-top: 30upx;
+	padding-bottom: 10upx;
+}
+	
+.content_top{
+	width: 100%;
+	height: 82upx;
+	display: flex;
+	align-items: center;
+}
+	
+.red_line{
+	width: 8upx;
+	height: 30upx;
+	border-radius: 4upx;
+	background-color: #ff0000;
+}
+	
+.content_title{
+	width: 341upx;
+	height: 82upx;
+	line-height: 82upx;
+	color: #333333;
+	padding-left: 15upx;
+	font-size: 30upx;
+}
+	
+.task_plan{
+	width: 341upx;
+	height: 82upx;
+	line-height: 82upx;
+	font-size: 26upx;
+	text-align: right;
+}
+	
+.task_award{
+	width: 100%;
+	display: flex;
+}
+	
+.task_award_list{
+	width: 230upx;
+}
+	
+.award_goal{
+	width: 116upx;
+	height: 144upx;
+	background-image: url(../../static/task_center/red.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	margin: 0 auto;
+	padding-top: 70upx;
+}
+	
+.award_goal text{
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 38upx;
+	line-height: 38upx;
+	font-size: 24upx;
+	color: #E8E8E6;
+}
+	
+.award_goal span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	height: 30upx;
+	line-height: 30upx;
+	font-size: 22upx;
+	color: #E8E8E6;
+}
+	
+.plan_line{
+	width: 100%;
+	height: 38upx;
+	display: flex;
+	align-items: center;
+	margin-top: 20upx;
+	position: relative;
+}	
+
+.plan_line_lf{
+	width: 115upx;
+	height: 10upx;
+	/* background-color: #FFE1DE; */
+	background: linear-gradient(left, #FF3826, #FFB2AA);
+}
+
+.plan_line_circle{
+	width: 38upx;
+	height: 38upx;
+	border-radius: 50%;
+	border: 4upx #FD3C2B solid;
+	background-color: #FFD5D1;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -19upx;
+}
+
+.plan_line_rt{
+	width: 115upx;
+	height: 10upx;
+	/* background-color: #ffe1de; */
+	background: linear-gradient(right, #FF3826, #FFB2AA);
+}
+
+.task_award_list:first-of-type .plan_line .plan_line_lf{
+	border-radius: 5upx 0 0 5upx;
+}
+
+.task_award_list:last-of-type .plan_line .plan_line_rt{
+	border-radius: 0 5upx 5upx 0;
+}
+
+.active .plan_line .plan_line_rt{
+	background: linear-gradient(left, #ffe1de, #ffe1de);
+}
+
+.active~.task_award_list .plan_line .plan_line_circle{
+	border-color: #FEB5AE;
+}
+
+.active~.task_award_list .plan_line .plan_line_lf{
+	background: linear-gradient(left, #ffe1de, #ffe1de);
+}
+
+.active~.task_award_list .plan_line .plan_line_rt{
+	background: linear-gradient(left, #ffe1de, #ffe1de);
+}
+
+.task_num{
+	width: 100%;
+	height: 64upx;
+	line-height: 64upx;
+	text-align: center;
+	color: #999999;
+	font-size: 24upx;
+}
+
+.task_num text{
+	color: #FF3C2C;
+}
+
+.task_mes{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 0 30upx;
+}
+
+.task_mes_list{
+	width: 100%;
+	border-bottom: 2upx #EBEBEB solid;
+	display: flex;
+}
+
+.task_mes_lf{
+	width: 540upx;
+	height: 135upx;
+}
+
+.task_mes_title{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding-top: 18upx;
+}
+
+.task_mes_title text{
+	/* width: 225upx; */
+	height: 54upx;
+	line-height: 54upx;
+	font-size: 29upx;
+	color: #333333;
+	margin-right: 15upx;
+}
+
+.task_mes_icon{
+	width: 90upx;
+	height: 27upx;
+	line-height: 27upx;
+	background-image: url(../../static/task_center/award.png);
+	background-size: cover;
+	background-position: 50% 50%;
+	font-size: 15upx;
+	text-align: right;
+	padding-right: 15upx;
+	color: #FD4737;
+}
+
+.task_mes_describe{
+	width: 100%;
+	height: 48upx;
+	line-height: 48upx;
+	font-size: 24upx;
+	color: #999999;
+}
+
+.task_mes_btn{
+	width: 150upx;
+	height: 52upx;
+	line-height: 52upx;
+	border-radius: 26upx;
+	text-align: center;
+	border: 2upx #ff5040 solid;
+	color: #ff5040;
+	font-size: 25upx;
+	margin-top: 35upx;
+}
+

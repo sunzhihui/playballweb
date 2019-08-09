@@ -1,0 +1,142 @@
+.my_wanllet_head{
+	width: 100%;
+	padding: 0 30rpx;
+	background-color: #FF5040;
+	padding-top: 28rpx;
+}
+.money_can{
+	width: 100%;
+	height: 70rpx;
+	line-height: 70rpx;
+	color: #ffffff;
+	font-size: 26rpx;
+}
+.money_extract{
+	width: 100%;
+	height: 74rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.gold_num{
+	width: 522rpx;
+	height: 74rpx;
+	line-height: 74rpx;
+	color: #ffffff;
+	font-size: 45rpx;
+}
+.extract_btn{
+	width: 168rpx;
+	height: 74rpx;
+	line-height: 74rpx;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 37rpx;
+	border: 2rpx #ffffff solid;
+	font-size: 38rpx;
+}
+.my_wallet_bt{
+	width: 100%;
+	height: 85rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.extract_num{
+	width: 345rpx;
+	height: 85rpx;
+	line-height: 85rpx;
+	color: #F2F1F1;
+	font-size: 25rpx;
+}
+.extract_rate{
+	width: 345rpx;
+	height: 85rpx;
+	line-height: 85rpx;
+	text-align: right;
+	color: #F2F1F1;
+	font-size: 25rpx;
+}
+.money_total{
+	width: 100%;
+	height: 133rpx;
+	background-color: #FE8D72;
+	padding: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.money_total_list{
+	width: 230rpx;
+	height: 73rpx;
+	border-right: 2rpx #F2F2F2 solid;
+}
+.money_total_list text{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25rpx;
+	height: 25rpx;
+	line-height: 25rpx;
+}
+.money_total_list ._span{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 28rpx;
+	color: #FFFFFF;
+	height: 28rpx;
+	line-height: 28rpx;
+	margin-top: 18rpx;
+}
+.money_total_list:last-of-type{
+	border-right: 0;
+}
+.bill_detail{
+	width: 100%;
+}
+.bill_title{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	height: 78rpx;
+}
+.bill_earn,.bill_expend{
+	width: 50%;
+	height: 78rpx;
+	line-height: 78rpx;
+	font-size: 32rpx;
+	text-align: center;
+	border-bottom: 2rpx #F0F0F0 solid;
+}
+.active{
+	border-bottom-color: #FF5040;
+	font-weight: 600;
+}
+.item_content{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 26rpx;
+	color: #999999;
+}
+.bill_time{
+	width: 130rpx;
+}
+.bill_content{
+	width: 510rpx;
+}
+.bill_num{
+	width: 50rpx;
+	color: #ff5040;
+	text-align: right;
+}
+

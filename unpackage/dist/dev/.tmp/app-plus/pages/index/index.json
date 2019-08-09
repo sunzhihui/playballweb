@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "新球乐园",
+  "enablePullDownRefresh": true,
+  "titleNView": {
+    "titleText": "优赚宝",
+    "titleColor": "#FF5040",
+    "titleSize": "16px",
+    "backgroundColor": "#ffffff",
+    "buttons": [
+      {
+        "text": "领取",
+        "fontSize": "14"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

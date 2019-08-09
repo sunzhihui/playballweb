@@ -1,0 +1,9 @@
+{
+  "titleNView": {
+    "titleText": "收到的红包",
+    "titleColor": "black",
+    "titleSize": "16px",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {}
+}

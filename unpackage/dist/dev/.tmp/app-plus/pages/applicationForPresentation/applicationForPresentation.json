@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "提现申请提交",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTextStyle": "black",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "fontSize": "26rpx",
+        "colorPressed": "#333333",
+        "width": "120rpx",
+        "text": "常见问题"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,21 @@
+{
+  "titleNView": {
+    "titleText": "我的钱包",
+    "titleColor": "#ffffff",
+    "titleSize": "16px",
+    "backgroundColor": "#FF5040",
+    "buttons": [
+      {
+        "text": "刷新",
+        "color": "#ffffff",
+        "fontSize": "14px"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

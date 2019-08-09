@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.pages.data-v-774ccf74 {
+  width: 100%;
+  height: 1rpx;
+  background-color: #EBEBEB;
+}
+.flex.data-v-774ccf74, .gender.data-v-774ccf74, .genderbox.data-v-774ccf74, .ageRangeListbox.data-v-774ccf74 {
+  display: -webkit-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bg.data-v-774ccf74 {
+  width: 100%;
+  height: 1260rpx;
+  background-color: #F7F7F7;
+}
+.contentTitle.data-v-774ccf74 {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.goldicon.data-v-774ccf74 {
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  margin-left: 4rpx;
+}
+page.data-v-774ccf74 {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  background-color: #F9F9F9;
+}
+page.data-v-774ccf74 {
+  background-color: #ffffff;
+}
+.text.data-v-774ccf74 {
+  width: 100%;
+  font-size: 34rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+  margin: 78rpx auto 122rpx;
+}
+.genderMaleicon.data-v-774ccf74, .genderFemaleicon.data-v-774ccf74 {
+  background: url("/static/uncheckedMale.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 183rpx;
+  height: 183rpx;
+}
+.genderFemaleicon.data-v-774ccf74 {
+  background: url("/static/uncheckedFemale.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.activeMale.data-v-774ccf74 {
+  background: url("/static/selectedMale.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.activeFemale.data-v-774ccf74 {
+  background: url("/static/selectedFemale.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gender.data-v-774ccf74 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+.genderbox.data-v-774ccf74 {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+.h2text.data-v-774ccf74 {
+  font-size: 32rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #333333;
+  margin: 114rpx 0  0rpx 30rpx;
+}
+.ageRangeList.data-v-774ccf74 {
+  width: 190rpx;
+  height: 60rpx;
+  border: 2rpx solid #FE4644;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #FE4644;
+  line-height: 60rpx;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.ageRangeListbox.data-v-774ccf74 {
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: auto;
+}
+.active.data-v-774ccf74 {
+  color: #fff;
+  background: #FE4644;
+}
+.actives.data-v-774ccf74 {
+  background: #FE4644 !important;
+}
+.buttom.data-v-774ccf74 {
+  width: 690rpx;
+  height: 90rpx;
+  background: #CECECE;
+  border-radius: 45rpx;
+  font-size: 36rpx;
+  font-family: PingFang-SC-Bold;
+  font-weight: bold;
+  color: #FFFFFF;
+  line-height: 90rpx;
+  text-align: center;
+  margin: 161rpx auto auto;
+}
+
